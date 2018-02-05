@@ -3,7 +3,7 @@
 
 hostname=$(hostname)
 title="Beef Supreme"
-export MYNAME="Norbert"
+export MYNAME="Norbert."
 today=$(date +%A)
 
 #echo "
@@ -12,6 +12,8 @@ today=$(date +%A)
 #"
 
 cat <<EOF
+
 Welcome to Planet $hostname, $title $MYNAME
 Today is $today.
+
 EOF
